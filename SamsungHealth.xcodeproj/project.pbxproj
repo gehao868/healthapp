@@ -22,6 +22,16 @@
 		7C05619B196895BC00085750 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C05617A196895BC00085750 /* UIKit.framework */; };
 		7C0561A3196895BC00085750 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C0561A1196895BC00085750 /* InfoPlist.strings */; };
 		7C0561A5196895BC00085750 /* SamsungHealthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C0561A4196895BC00085750 /* SamsungHealthTests.m */; };
+		7C509ED1197C4FA1001D340D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C509ED0197C4FA1001D340D /* Parse.framework */; };
+		7C509ED3197C509D001D340D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C509ED2197C509D001D340D /* AudioToolbox.framework */; };
+		7C509ED5197C50AB001D340D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C509ED4197C50AB001D340D /* CFNetwork.framework */; };
+		7C509ED7197C50BD001D340D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C509ED6197C50BD001D340D /* CoreLocation.framework */; };
+		7C509ED9197C50C9001D340D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C509ED8197C50C9001D340D /* libz.dylib */; };
+		7C509EDB197C50D1001D340D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C509EDA197C50D1001D340D /* MobileCoreServices.framework */; };
+		7C509EDD197C50E0001D340D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C509EDC197C50E0001D340D /* QuartzCore.framework */; };
+		7C509EDF197C50EA001D340D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C509EDE197C50EA001D340D /* Security.framework */; };
+		7C509EE1197C50F2001D340D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C509EE0197C50F2001D340D /* StoreKit.framework */; };
+		7C509EE3197C50FA001D340D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C509EE2197C50FA001D340D /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +66,16 @@
 		7C0561A0196895BC00085750 /* SamsungHealthTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamsungHealthTests-Info.plist"; sourceTree = "<group>"; };
 		7C0561A2196895BC00085750 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7C0561A4196895BC00085750 /* SamsungHealthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamsungHealthTests.m; sourceTree = "<group>"; };
+		7C509ED0197C4FA1001D340D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		7C509ED2197C509D001D340D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7C509ED4197C50AB001D340D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7C509ED6197C50BD001D340D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7C509ED8197C50C9001D340D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7C509EDA197C50D1001D340D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7C509EDC197C50E0001D340D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7C509EDE197C50EA001D340D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7C509EE0197C50F2001D340D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7C509EE2197C50FA001D340D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +83,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C509EE3197C50FA001D340D /* SystemConfiguration.framework in Frameworks */,
+				7C509EE1197C50F2001D340D /* StoreKit.framework in Frameworks */,
+				7C509EDF197C50EA001D340D /* Security.framework in Frameworks */,
+				7C509EDD197C50E0001D340D /* QuartzCore.framework in Frameworks */,
+				7C509EDB197C50D1001D340D /* MobileCoreServices.framework in Frameworks */,
+				7C509ED9197C50C9001D340D /* libz.dylib in Frameworks */,
+				7C509ED7197C50BD001D340D /* CoreLocation.framework in Frameworks */,
 				7C056179196895BC00085750 /* CoreGraphics.framework in Frameworks */,
+				7C509ED5197C50AB001D340D /* CFNetwork.framework in Frameworks */,
+				7C509ED3197C509D001D340D /* AudioToolbox.framework in Frameworks */,
 				7C05617B196895BC00085750 /* UIKit.framework in Frameworks */,
 				7C056177196895BC00085750 /* Foundation.framework in Frameworks */,
+				7C509ED1197C4FA1001D340D /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +134,16 @@
 		7C056175196895BC00085750 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C509EE2197C50FA001D340D /* SystemConfiguration.framework */,
+				7C509EE0197C50F2001D340D /* StoreKit.framework */,
+				7C509EDE197C50EA001D340D /* Security.framework */,
+				7C509EDC197C50E0001D340D /* QuartzCore.framework */,
+				7C509EDA197C50D1001D340D /* MobileCoreServices.framework */,
+				7C509ED8197C50C9001D340D /* libz.dylib */,
+				7C509ED6197C50BD001D340D /* CoreLocation.framework */,
+				7C509ED4197C50AB001D340D /* CFNetwork.framework */,
+				7C509ED2197C509D001D340D /* AudioToolbox.framework */,
+				7C509ED0197C4FA1001D340D /* Parse.framework */,
 				7C056176196895BC00085750 /* Foundation.framework */,
 				7C056178196895BC00085750 /* CoreGraphics.framework */,
 				7C05617A196895BC00085750 /* UIKit.framework */,
@@ -382,6 +422,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SamsungHealth/SamsungHealth-Prefix.pch";
 				INFOPLIST_FILE = "SamsungHealth/SamsungHealth-Info.plist";
@@ -395,6 +439,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SamsungHealth/SamsungHealth-Prefix.pch";
 				INFOPLIST_FILE = "SamsungHealth/SamsungHealth-Info.plist";
@@ -462,6 +510,7 @@
 				7C0561AA196895BC00085750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C0561AB196895BC00085750 /* Build configuration list for PBXNativeTarget "SamsungHealthTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +519,7 @@
 				7C0561AD196895BC00085750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
