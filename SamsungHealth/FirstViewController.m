@@ -30,16 +30,16 @@
     NSString *name = self.inputSteps.text;
     
     //push object into cloud
-    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
-    testObject[@"steps"] = name;
-    [testObject saveInBackground];
+//    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+//    testObject[@"steps"] = name;
+//    [testObject saveInBackground];
     
     //call cloud function
-    [PFCloud callFunctionInBackground:@"getSteps"
-                       withParameters:@{@"name": name}
-                                block:^(NSNumber *ratings, NSError *error) {
+    [PFCloud callFunctionInBackground:@"hello"
+                       withParameters:@{}
+                                block:^(NSString *result, NSError *error) {
                                     if (!error) {
-                                        // ratings is 4.5
+                                        self.stepLabel.text = result;
                                     }
                                 }];
     

@@ -11,6 +11,7 @@
 
 @interface FirstViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *inputSteps;
+@property (weak, nonatomic) IBOutlet UILabel *stepLabel;
 @property (weak, nonatomic) IBOutlet UIButton *getStepsButton;
 - (IBAction)getStepsAction:(id)sender;
 
