@@ -27,6 +27,21 @@
 }
 
 - (IBAction)getStepsAction:(id)sender {
+    NSString *name = self.inputSteps.text;
+    
+    //push object into cloud
+    PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
+    testObject[@"steps"] = name;
+    [testObject saveInBackground];
+    
+    //call cloud function
+    [PFCloud callFunctionInBackground:@"getSteps"
+                       withParameters:@{@"name": name}
+                                block:^(NSNumber *ratings, NSError *error) {
+                                    if (!error) {
+                                        // ratings is 4.5
+                                    }
+                                }];
     
 }
 @end
